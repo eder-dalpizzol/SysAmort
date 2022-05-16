@@ -1,0 +1,211 @@
+object FSim: TFSim
+  Left = 343
+  Height = 545
+  Top = 164
+  Width = 747
+  Align = alRight
+  Anchors = [akTop]
+  Caption = 'FSim'
+  ClientHeight = 545
+  ClientWidth = 747
+  DragKind = dkDock
+  OnCreate = FormCreate
+  OnResize = FormResize
+  PopupMode = pmAuto
+  LCLVersion = '2.2.0.4'
+  object Panel1: TPanel
+    Left = 0
+    Height = 102
+    Top = 0
+    Width = 747
+    Align = alTop
+    AutoSize = True
+    ClientHeight = 102
+    ClientWidth = 747
+    TabOrder = 0
+    Wordwrap = True
+    object Panel4: TPanel
+      Left = 1
+      Height = 28
+      Top = 23
+      Width = 745
+      Align = alBottom
+      AutoSize = True
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsHomogenousChildResize
+      ChildSizing.ShrinkVertical = crsHomogenousChildResize
+      ChildSizing.Layout = cclTopToBottomThenLeftToRight
+      ChildSizing.ControlsPerLine = 3
+      ClientHeight = 28
+      ClientWidth = 745
+      TabOrder = 0
+      object ECapital: TEdit
+        Left = 1
+        Height = 26
+        Top = 1
+        Width = 80
+        Align = alLeft
+        AutoSize = False
+        NumbersOnly = True
+        TabOrder = 0
+        Text = 'ECapital'
+      end
+      object EJuros: TEdit
+        Left = 81
+        Height = 26
+        Top = 1
+        Width = 583
+        Align = alClient
+        AutoSize = False
+        NumbersOnly = True
+        TabOrder = 1
+        Text = 'EJuros'
+      end
+      object EMeses: TEdit
+        Left = 664
+        Height = 26
+        Top = 1
+        Width = 80
+        Align = alRight
+        AutoSize = False
+        NumbersOnly = True
+        TabOrder = 2
+        Text = 'EMeses'
+      end
+    end
+    object Panel5: TPanel
+      Left = 1
+      Height = 22
+      Top = 1
+      Width = 745
+      Align = alBottom
+      ClientHeight = 22
+      ClientWidth = 745
+      TabOrder = 1
+      object Label2: TLabel
+        Left = 1
+        Height = 20
+        Top = 1
+        Width = 41
+        Align = alLeft
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Label2'
+      end
+      object Label3: TLabel
+        Left = 703
+        Height = 20
+        Top = 1
+        Width = 41
+        Align = alRight
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Label3'
+      end
+      object Label4: TLabel
+        Left = 42
+        Height = 20
+        Top = 1
+        Width = 661
+        Align = alClient
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Label4'
+      end
+    end
+    object Panel6: TPanel
+      Left = 1
+      Height = 1
+      Top = 1
+      Width = 745
+      Align = alTop
+      AutoSize = True
+      Caption = 'Panel6'
+      TabOrder = 2
+    end
+    object Panel7: TPanel
+      Left = 1
+      Height = 50
+      Top = 51
+      Width = 745
+      Align = alBottom
+      ClientHeight = 50
+      ClientWidth = 745
+      TabOrder = 3
+      object SpeedButton1: TSpeedButton
+        Left = 528
+        Height = 38
+        Top = 8
+        Width = 111
+        Caption = 'Simular'
+        OnClick = SpeedButton1Click
+      end
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 50
+    Top = 495
+    Width = 747
+    Align = alBottom
+    TabOrder = 1
+  end
+  object Panel3: TPanel
+    Left = 0
+    Height = 393
+    Top = 102
+    Width = 747
+    Align = alClient
+    Caption = 'Panel3'
+    ClientHeight = 393
+    ClientWidth = 747
+    TabOrder = 2
+    object GDados: TStringGrid
+      Left = 1
+      Height = 391
+      Top = 1
+      Width = 745
+      Align = alClient
+      AlternateColor = clTeal
+      AutoFillColumns = True
+      BorderStyle = bsNone
+      Color = clHighlight
+      FixedColor = clTeal
+      Flat = True
+      Font.Color = clBlack
+      GridLineColor = clHighlightText
+      GridLineStyle = psClear
+      GridLineWidth = 0
+      ParentFont = False
+      RowCount = 1
+      TabOrder = 0
+      TitleStyle = tsNative
+      ColWidths = (
+        53
+        173
+        173
+        173
+        173
+      )
+      Cells = (
+        5
+        0
+        0
+        'Mês'
+        1
+        0
+        'Juros'
+        2
+        0
+        'Amortização Saldo devedor '
+        3
+        0
+        'Pagamento'
+        4
+        0
+        'Saldo devedor'
+      )
+    end
+  end
+end

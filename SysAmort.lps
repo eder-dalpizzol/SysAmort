@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="SysAmort.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="31"/>
+      </Unit>
+      <Unit>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UMain"/>
+        <TopLine Value="24"/>
+        <CursorPos X="59" Y="26"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="usim.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FSim"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="USim"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="71"/>
+        <CursorPos X="29" Y="74"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="9" Column="194"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="30" Column="46" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="36" Column="16" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="17" Column="57" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="18" Column="57" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="19" Column="57" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="20" Column="57" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="5" Column="59" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="13" Column="201" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="16" Column="31" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="13" Column="62" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="31" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="32" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="33" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="34" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="35" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="34" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="35" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="34" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="35" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="34" Column="33" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="44" Column="53" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="45" Column="53" TopLine="25"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="26" Column="17" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="70" Column="43" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="82" Column="44" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="69" Column="16" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="80" Column="119" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="82" Column="15" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="usim.pas"/>
+        <Caret Line="80" Column="156" TopLine="64"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
