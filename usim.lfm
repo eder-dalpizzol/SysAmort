@@ -1,0 +1,247 @@
+object FSim: TFSim
+  Left = 343
+  Height = 545
+  Top = 164
+  Width = 747
+  Align = alRight
+  Anchors = [akTop]
+  Caption = 'FSim'
+  ClientHeight = 545
+  ClientWidth = 747
+  DragKind = dkDock
+  OnCreate = FormCreate
+  OnResize = FormResize
+  PopupMode = pmAuto
+  LCLVersion = '2.2.0.4'
+  object Panel1: TPanel
+    Left = 0
+    Height = 102
+    Top = 0
+    Width = 747
+    Align = alTop
+    AutoSize = True
+    ClientHeight = 102
+    ClientWidth = 747
+    TabOrder = 0
+    Wordwrap = True
+    object Panel4: TPanel
+      Left = 1
+      Height = 28
+      Top = 23
+      Width = 745
+      Align = alBottom
+      AutoSize = True
+      ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+      ChildSizing.EnlargeVertical = crsHomogenousChildResize
+      ChildSizing.ShrinkHorizontal = crsHomogenousChildResize
+      ChildSizing.ShrinkVertical = crsHomogenousChildResize
+      ChildSizing.Layout = cclTopToBottomThenLeftToRight
+      ChildSizing.ControlsPerLine = 3
+      ClientHeight = 28
+      ClientWidth = 745
+      TabOrder = 0
+      object ECapital: TEdit
+        Left = 1
+        Height = 26
+        Top = 1
+        Width = 80
+        Align = alLeft
+        AutoSize = False
+        NumbersOnly = True
+        TabOrder = 0
+        Text = 'ECapital'
+      end
+      object EJuros: TEdit
+        Left = 81
+        Height = 26
+        Top = 1
+        Width = 583
+        Align = alClient
+        AutoSize = False
+        NumbersOnly = True
+        TabOrder = 1
+        Text = 'EJuros'
+      end
+      object EMeses: TEdit
+        Left = 664
+        Height = 26
+        Top = 1
+        Width = 80
+        Align = alRight
+        AutoSize = False
+        NumbersOnly = True
+        TabOrder = 2
+        Text = 'EMeses'
+      end
+    end
+    object Panel5: TPanel
+      Left = 1
+      Height = 22
+      Top = 1
+      Width = 745
+      Align = alBottom
+      ClientHeight = 22
+      ClientWidth = 745
+      TabOrder = 1
+      object Label2: TLabel
+        Left = 1
+        Height = 20
+        Top = 1
+        Width = 41
+        Align = alLeft
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Label2'
+      end
+      object Label3: TLabel
+        Left = 703
+        Height = 20
+        Top = 1
+        Width = 41
+        Align = alRight
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Label3'
+      end
+      object Label4: TLabel
+        Left = 42
+        Height = 20
+        Top = 1
+        Width = 661
+        Align = alClient
+        Alignment = taCenter
+        AutoSize = False
+        Caption = 'Label4'
+      end
+    end
+    object Panel6: TPanel
+      Left = 1
+      Height = 1
+      Top = 1
+      Width = 745
+      Align = alTop
+      AutoSize = True
+      Caption = 'Panel6'
+      TabOrder = 2
+    end
+    object Panel7: TPanel
+      Left = 1
+      Height = 50
+      Top = 51
+      Width = 745
+      Align = alBottom
+      ClientHeight = 50
+      ClientWidth = 745
+      TabOrder = 3
+      object SpeedButton1: TSpeedButton
+        Left = 528
+        Height = 38
+        Top = 8
+        Width = 111
+        Caption = 'Simular'
+        Glyph.Data = {
+          3A040000424D3C04000000000000FA0100002800000018000000180000000100
+          08000000000000000000210B0000210B00007100000071000000008400000384
+          030006840300068406001C8F1100238F1100238F16001C981600239816002398
+          1C00EA8F23002398230023A1230050A12A0050A13100EA8F3800FFA138006A6A
+          40007BAB400058B64800E0985000F4AB500058B6500098605800986A5800A16A
+          58008FB6580098606000846A60008F6A6000986A6000A1736000B6B6600060C0
+          6000A16A6A00AB6A6A00A1736A00AB736A00AB7B6A00B67B6A00B6846A00D48F
+          6A00E0A16A00C0847300C08F7300CA8F7300D4987300EAB67300F4B67300ABC0
+          7300B6C07300A1987B00E0C07B00EAC07B00A1988400EAC08400F4C08400C0CA
+          8400F4CA840084D48400ABA18F00D4B68F00EAC08F0098CA8F00E0CA8F00F4CA
+          8F00C0AB9800CAB69800B6CA9800E0CA9800EACA9800F4CA9800F4CAA100C0D4
+          A100EAD4A100F4D4A100C0D4AB00EAD4AB00F4D4AB00E0C0B600E0D4B600EAD4
+          B600F4D4B600EAE0B600F4E0B600FFE0B600E0CAC000F4D4C000EAE0C000F4E0
+          C000FFE0C000C0EAC000CAEAC000E0CACA00F4E0CA00FFE0CA00EAEACA00FFEA
+          CA00EAD4D400F4E0D400EAEAD400F4EAD400FFEAD400F4EAE000FFEAE000FFF4
+          E000F4EAEA00FFF4EA00FFF4F400F4FFF400FFFFF400FF00FF00FFFFFF006F6F
+          6F1B2222222222222222222222222222222222226F6F6F6F6F1B51544E4B4846
+          41373735353535353535351F6F6F6F6F6F1B5154524E3140403E373735353535
+          3535351F6F6F6F6F6F1B575952523900400E06060E2034353535351F6F6F6F6F
+          6F1B585E59524A0003000000000012343535351F6F6F6F6F6F1B5E655E594D00
+          00000000000000203535351F6F6F6F6F6F1E63655E59500000000932320E0006
+          3535351F6F6F6F6F6F1E6767655E53000000044540401A023735351F6F6F6F6F
+          6F1F676B67655800000000004546463E2137351F6F6F6F6F6F246A6B67675858
+          50504D4A454846462137351F6F6F6F6F6F256C6E6B2167655E53504D4A454540
+          463E371F6F6F6F6F6F266C706C216767655800000000004546463E1F6F6F6F6F
+          6F276C70706C033F605858070000004548463E1F6F6F6F6F6F286C7070700B00
+          1649490B0000004A4E48461F6F6F6F6F6F286C7070705B00000000000000004D
+          4E4D3D1C6F6F6F6F6F2B6C7070706D3B00000000000300504D42331C6F6F6F6F
+          6F2C6C707070706D5B160B0B13580044423C361C6F6F6F6F6F2D6C7070707070
+          70706C6B69501811171717186F6F6F6F6F2E6C707070707070706E6C6B4F192A
+          140F0A226F6F6F6F6F2E6C7070707070707070706E4F192F1510226F6F6F6F6F
+          6F2E6C7070707070707070707056192F15226F6F6F6F6F6F6F2E707070707070
+          70707070705D192F226F6F6F6F6F6F6F6F292929292929292929292929291922
+          6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F6F
+        }
+        OnClick = SpeedButton1Click
+      end
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 50
+    Top = 495
+    Width = 747
+    Align = alBottom
+    TabOrder = 1
+  end
+  object Panel3: TPanel
+    Left = 0
+    Height = 393
+    Top = 102
+    Width = 747
+    Align = alClient
+    Caption = 'Panel3'
+    ClientHeight = 393
+    ClientWidth = 747
+    TabOrder = 2
+    object GDados: TStringGrid
+      Left = 1
+      Height = 391
+      Top = 1
+      Width = 745
+      Align = alClient
+      AlternateColor = clTeal
+      AutoFillColumns = True
+      BorderStyle = bsNone
+      Color = clHighlight
+      FixedColor = clTeal
+      Flat = True
+      Font.Color = clBlack
+      GridLineColor = clHighlightText
+      GridLineStyle = psClear
+      GridLineWidth = 0
+      ParentFont = False
+      RowCount = 1
+      TabOrder = 0
+      TitleStyle = tsNative
+      ColWidths = (
+        53
+        173
+        173
+        173
+        173
+      )
+      Cells = (
+        5
+        0
+        0
+        'Mês'
+        1
+        0
+        'Juros'
+        2
+        0
+        'Amortização Saldo devedor '
+        3
+        0
+        'Pagamento'
+        4
+        0
+        'Saldo devedor'
+      )
+    end
+  end
+end
